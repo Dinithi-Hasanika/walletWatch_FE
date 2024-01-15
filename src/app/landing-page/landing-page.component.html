@@ -1,0 +1,32 @@
+<div class="pad">
+<p>ASSUME THIS IS NAVBAR</p>
+<div>
+<div class="left-pane">
+<div>
+<button class="btn" mat-fab extended (click)="createBudget()">
+    <mat-icon>add</mat-icon>
+    Create New Budget
+  </button>
+</div>
+<div>
+  <button class="btn" mat-fab extended (click)="showMyBudgets()">
+    <mat-icon>account_balance_wallet</mat-icon>
+   My Budgets
+  </button>
+</div>
+<div>
+    <button class="btn" mat-fab extended (click)="showSharedBudgets()">
+    <mat-icon>folder_shared</mat-icon>
+     Shared Budgets
+    </button>
+  </div>
+  <div>
+    <button class="btn" mat-fab extended (click)="showAwards()">
+    <mat-icon>card_giftcard</mat-icon>
+     Awards
+    </button>
+  </div>
+</div>
+<div class="right-pane"><p>{{text}}</p></div>
+</div>
+</div>
