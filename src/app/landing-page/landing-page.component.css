@@ -1,0 +1,26 @@
+.pad{
+    padding-left: 5%;
+}
+
+.btn{
+    margin-top: 5%;
+    color: white;
+    background-color: cadetblue;
+    margin-bottom: 5%;
+}
+
+.left-pane{
+    width: 30%;
+    float:left;
+    /*height: fit-content;*/
+}
+
+.right-pane{
+    width: 70%;
+    float:right;
+    height: fit-content;
+}
+
+.pane{
+    width: 100%;
+}
